@@ -1,0 +1,36 @@
+
+#myTable{
+    border: solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+#Start{
+    width: 100px;
+    height: 70px;
+    margin-left: 10px;
+    position: relative;
+    border-radius: 5px;
+    padding: .75em;
+}
+#Stop{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    border-radius: 5px;
+    padding: .75em;
+}
+#Reset{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    border-radius: 5px;
+    padding: .75em;
+}
+#LD{
+    position: absolute;
+    margin-left: 20px;
+    font-size: smaller;
+}
+body{
+    background-color: rgb(179, 209, 235);
+}
