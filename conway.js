@@ -193,7 +193,7 @@ function draw(){
 }
 function startButtonPressed(){
     document.getElementById("Start").disabled = true
-    timerTest=setInterval(play,100)
+    timerTest=setInterval(play,50)
 }
 function play(){
         nextTabFill();
