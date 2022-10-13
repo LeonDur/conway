@@ -21,7 +21,7 @@ function startGame(){
     block2 =new createBlock2(Math.floor(Math.random() * 10+40),
     Math.floor(Math.random() * 100+70),
     Math.floor(Math.random() * 6+4),300);
-    scoreLabel=new createScoreLabel(10,30);
+    //scoreLabel=new createScoreLabel(10,30);
 }
 var gameCanvas ={
     canvas:document.createElement("canvas"),
@@ -68,16 +68,14 @@ function createPlayer(width, height, x){
     }
     document.body.onkeydown = function(e) {
         if (e.key == " " ||
-              e.code == "Space" ||      
-             e.keyCode == 32      
+              e.code == "Space"      
         ) {
              isJumping=true;
         }
     }
     document.body.onkeyup = function(e) {
         if (e.key == " " ||
-              e.code == "Space" ||      
-             e.keyCode == 32      
+              e.code == "Space"      
         ) {
              isJumping=false;
         }
@@ -157,12 +155,12 @@ function detectColision(){
     if(playerRight>blockLeft&&
     playerLeft<blockLeft&&
     playerBottom>blockTop){
-        gameCanvas.stop();
+        window.location.stop();
     }
     if(playerRight>block2Left&&
     playerLeft<block2Left&&
     playerBottom<block2bottom){
-        gameCanvas.stop();
+        window.location.stop();
     }
 }
 function resetButtonPressed(){

@@ -2,7 +2,7 @@
     background-color: rgb(126, 163, 231);
     width: 200px;
     height: 100px;
-    position: absolute;
+    position: relative;
     font-size: large;
     margin-top: 100px;
     padding: .25em;
@@ -15,9 +15,9 @@
     background-color: rgb(126, 163, 231);
     width: 200px;
     height: 100px;
-    position: fixed;
+    position: relative;
     font-size: large;
-    margin-top: 250px;
+    margin-top: 50px;
     padding: .25em;
     left: 50%;
     /* -ms-transform:translate(-50%, -50%); */
@@ -27,9 +27,9 @@
     background-color: rgb(126, 163, 231);
     width: 200px;
     height: 100px;
-    position: fixed;
+    position: relative;
     font-size: large;
-    margin-top: 400px;
+    margin-top: 50px;
     padding: .25em;
     left: 50%;
     /* -ms-transform:translate(-50%, -50%); */
