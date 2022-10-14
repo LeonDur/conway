@@ -3,3 +3,13 @@ border: solid rgb(0, 0, 0);
     margin: 10px;
     background-color: black;
 }
+#Start{
+    width: 100px;
+    height: 70px;
+    position: relative;
+    border-radius: 5px;
+    padding: .75em;
+}
+#img{
+    opacity: 100%;
+}
