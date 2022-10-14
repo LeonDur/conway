@@ -8,7 +8,7 @@ function startButtonPressed(){
 }
 var playerWidth=70;
 var enemyY=50;
-var enemy2Y=100
+var enemy2Y=150
 var enemyWidth=50
 var shooting=false;
 var bulletY=playerY
