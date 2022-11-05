@@ -317,7 +317,7 @@ function draw(){
     ||hit4==false||hit5==false||hit6==false){
     enemyY+=0.5
     enemy2Y+=0.5
-        if(enemyY>playerY){
+        if(enemyY>playerY || enemy2Y>playerY){
             alert("GAME OVER");
             clearInterval(interval);
             interval=null;
