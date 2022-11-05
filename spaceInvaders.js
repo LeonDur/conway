@@ -8,7 +8,7 @@ function startButtonPressed(){
 }
 var playerWidth=70;
 var enemyY=50;
-var enemy2Y=150
+var enemy2Y=150;
 var enemyWidth=50
 var shooting=false;
 var bulletY=playerY
@@ -47,7 +47,7 @@ document.addEventListener('keydown', function(event) {
     if(event.key=="A"||event.key=="a"){
         playerX-=35;
     }else if(event.key=="D"||event.key=="d"){
-        playerX+=35
+        playerX+=35;
     }
     drawPlayer();
     if(event.key=="w"|| event.key=="W"){
@@ -116,7 +116,7 @@ function drawEnemy3(){
     }
     else{
         shooting=false;
-        bulletY=playerY
+        bulletY=playerY;
     }
 }
 function drawEnemy4(){
@@ -138,7 +138,7 @@ function drawEnemy4(){
     }
     else{
         shooting=false;
-        bulletY=playerY
+        bulletY=playerY;
     }
 }
 function drawEnemy5(){
@@ -160,7 +160,7 @@ function drawEnemy5(){
     }
     else{
         shooting=false;
-        bulletY=playerY
+        bulletY=playerY;
     }
 }
 function drawEnemy6(){
@@ -182,7 +182,7 @@ function drawEnemy6(){
     }
     else{
         shooting=false;
-        bulletY=playerY
+        bulletY=playerY;
     }
 }
 // druga vrsta
@@ -315,8 +315,8 @@ function draw(){
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     if(hit1==false||hit2==false||hit3==false
     ||hit4==false||hit5==false||hit6==false){
-    enemyY+=0.5
-    enemy2Y+=0.5
+    enemyY+=0.5;
+    enemy2Y+=0.5;
         if(enemyY>playerY || enemy2Y>playerY){
             alert("GAME OVER");
             clearInterval(interval);
